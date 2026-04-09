@@ -44,7 +44,7 @@ OBS: em servidores fracos é bom usar -t 1 \ ou -t 4 \ para evitar o rating limi
 
 ## Resultado
 
-como resultado da enumeração consegui o email canderson@gmail.com
+como resultado da enumeração consegui o email `canderson@gmail.com`
 
 
 ## Lições Aprendidas
