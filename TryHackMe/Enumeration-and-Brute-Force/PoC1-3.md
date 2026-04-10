@@ -1,6 +1,6 @@
 # Error Verbose - enum.thm/verbose_login
 
-**Severity:** High   
+**Severity:** Medium   
 **Target:** /labs/verbose_login/functions.php
 
 ## Summary
@@ -14,12 +14,12 @@ The vulnerability is an error verbose, when the attacker put an email that doesn
 ## Steps to Reproduce
 1. Use burp in the target to find the real path, function login and JSON return
 2. build your attack line with hydra
-3. Make an enumaration and brute with a wordlist and rockyou.txt
+3. Make an enumeration and brute with a wordlist and rockyou.txt
    
 
 ## Proof of Concept
 Use Burp to find the real path and function login of the target. after that find the substring in the JSON return. "Email does not exist"
-after that use hydra to start enumaration:
+after that use hydra to start enumeration:
  
 ```bash
 hydra -L /usr/share/wordlists/SecLists/Usernames/top-usernames-shortlist.txt \
@@ -40,7 +40,7 @@ http-post-form \
 ```
 
 ## Impact
-Valid account enumeration enables targeted brute force, reducing attack time from millions of attempts to a targeted list.
+It allows for efficient password spraying against real users, increasing the chance of success and decreasing detection due to the volume of requests.
 
 ## Remediation
 The developer needs to fix the backend JSON substring to always performs both checks and returns an identical generic message such as incorrect credentials or incorrect email or password.
