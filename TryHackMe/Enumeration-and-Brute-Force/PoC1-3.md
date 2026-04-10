@@ -40,7 +40,7 @@ http-post-form \
 ```
 
 ## Impact
-It allows for efficient password spraying against real users, increasing the chance of success and decreasing detection due to the volume of requests.
+Valid account enumeration enables targeted brute force, reducing attack time from millions of attempts to a targeted list.
 
 ## Remediation
 The developer needs to fix the backend JSON substring to always performs both checks and returns an identical generic message such as incorrect credentials or incorrect email or password.
