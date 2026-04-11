@@ -3,11 +3,13 @@
 Documentação do meu aprendizado em pentesting e bug bounty.
 
 ## Trilha de Estudos
-- [ ] TryHackMe — Enumeration & Brute Force
+- [x] TryHackMe — Enumeration & Brute Force
+- [ ] PortSwigger — Authentication Vulnerabilities
 - [ ] HackTheBox
-- [ ] PortSwigger Web Security Academy
 
 ## Writeups
-| Room | Plataforma | Status |
-|------|-----------|--------|
-| Enumeration & Brute Force | TryHackMe | Em progresso |
+
+| Plataforma | Módulo | Status |
+|------------|--------|--------|
+| TryHackMe | Enumeration & Brute Force | Concluído |
+| PortSwigger | Authentication Vulnerabilities | Em progresso |
