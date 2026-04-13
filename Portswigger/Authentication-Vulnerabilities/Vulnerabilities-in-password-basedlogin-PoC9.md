@@ -4,16 +4,16 @@
 **Target:** https://0a1a00e10448a2e08b96447800380068.web-security-academy.net
 
 ## Summary
-The vulnerabilitie is subtly different responses and notice that it contains a typo in the error message - instead of a full stop/period, there is a trailing space. 
+This vulnerability exploits subtly different responses and notice that it contains a typo in the error message - instead of a full stop/period, there is a trailing space. 
 with that an attacker can use Grep Extract in Burp and captures the exact text of the message and detects the trailing space — knowing the user, the attacker can use the password wordlist 
 also the absence of rate limiting and a weak password allow an attacker to perform a brute force attack without being blocked.
 
 ## Vulnerability Details
 **Type:** enumeration via subtly different responses
-**Root Cause:** The error message "Invalid username or password. " contains a trailling space when the user is right but the password is wrong
+**Root Cause:** The error message "Invalid username or password. " contains a trailing space when the user is right but the password is wrong
 **Endpoint:** https://0a1a00e10448a2e08b96447800380068.web-security-academy.net
 
-## Steps to Reproduce - Oficial method
+## Steps to Reproduce - Official method
 
 1. With Burp running, submit an invalid username and password. Highlight the username parameter in the POST /login request and send it to Burp Intruder.
 2. Go to Intruder. Notice that the username parameter ``username`` is automatically marked as a payload position.
