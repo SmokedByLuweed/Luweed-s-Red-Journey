@@ -2,11 +2,13 @@
 Enumeração e brute force a partir de resposta de tempo diferente no servidor(ms) e rate limit basico confiando em IP apenas por X-Forwarded-For
 
 ## Vulnerabilidade Identificada
-o servidor processa bcrypt mesmo quando deveria rejeitar antes — ou seja, a lógica de autenticação não falha rápido em usernames inválidos de forma consistente, vazando informação via tempo de resposta
+o servidor processa bcrypt quando o username existe. Quando inválido, rejeita antes. essa assimetria vaza o timing.
+é um comportamento esperado do bcrypt sendo mal protegido.
 
 ## Metodologia
-Após identificar a misconfiguration "X-Forwarded-For". usando esse vetor de bypass usei uma lista de ips basico que gerei e usando o modo pitchfork do ffuf fiz um fuzz com a senha longa pra ver resposta do servidor
-a senha longa amplifica o tempo de processamento bcrypt, aumentando a diferença entre username válido e inválido e facilitando a detecção do outlier.
+Testei o header manualmente no ffuf e confirmei que o servidor aceitava o IP forjado sem validação. 
+usando esse vetor de bypass usei uma lista de ips basico que gerei e usando o modo pitchfork do ffuf fiz um fuzz com a senha longa pra ver resposta do servidor
+a senha longa amplifica o tempo de processamento bcrypt, aumentando a diferença entre username válido e inválido e tornando o outlier detectável mesmo com variação de rede
 
 ## Comandos Utilizados
 
