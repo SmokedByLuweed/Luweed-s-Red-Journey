@@ -13,7 +13,7 @@ The server processes bcrypt when the parameter is a valid username. If not, it r
 
 ## Steps to Reproduce
 1. Test the X-Forwarded-For header manually to verify the server accepts forged IPs without validation
-2. After confirming, brute-force with a long password to check the timing response, make sure to make the password as long as u can for better results (A long password amplifies bcrypt processing time, increasing the difference between valid and invalid usernames and making outliers detectable even with network variations.)
+2. After confirming, brute-force with a long password to check the timing response, make sure to make the password as long as you can for better results (A long password amplifies bcrypt processing time, increasing the difference between valid and invalid usernames and making outliers detectable even with network variations.)
 3. Analyze response times and identify outliers
 4. After identifying the valid username via timing. brute-force the password
 
