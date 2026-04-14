@@ -1,4 +1,4 @@
-# enumeration via subtly different responses - 0a1a00e10448a2e08b96447800380068.web-security-academy.net/Username enumeration via subtly different responses
+# Enumeration via subtly different responses - PortSwigger Lab 14
 
 **Severity:** Medium 
 **Target:** https://0a1a00e10448a2e08b96447800380068.web-security-academy.net
