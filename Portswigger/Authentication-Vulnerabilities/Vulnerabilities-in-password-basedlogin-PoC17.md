@@ -16,7 +16,7 @@ The IP block resets after every successful login, allowing an attacker with vali
 ## Steps to Reproduce
 1. Identify that the IP block resets after a successful login
 2. Create an interleaved wordlist alternating valid credentials with brute-force attempts against the victim
-3. Run the attack script, which resets the block counter before each victim attempt
+3. Run the attack script, which interleaves valid credentials to trigger server-side counter reset before each victim attempt.
 4. Identify successful login via 302 redirect with victim's username
 
 ## Proof of Concept
