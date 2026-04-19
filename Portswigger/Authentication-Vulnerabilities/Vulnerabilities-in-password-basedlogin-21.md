@@ -3,7 +3,7 @@ Enumeração de usuário valido via bloqueio de conta. Após isso fazer o brute 
 
 ## Vulnerabilidade Identificada
 O servidor bloqueia o usuário valido após 5 tentativas com uma senha incorreta. assim facilitando a enumeração de credenciais valida. 
-e também após 5 tentativas o servidor bloqueia por 1 minuto a conta e desbloqueia. dando um limite rate facil de bypass facilitando a brute automatizada
+e também, após 5 tentativas o servidor bloqueia por 1 minuto a conta e desbloqueia. dando um limite rate facil de bypass facilitando a brute automatizada
 
 ## Comandos Utilizados
 Primeiro eu criei um script python pra repetir 5 vezes cada user e coloquei uma senha errada de proprosito. assim criando a wordlist pra usar no hydra para a enumeração
