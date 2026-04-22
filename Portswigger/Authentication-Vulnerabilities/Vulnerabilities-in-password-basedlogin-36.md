@@ -35,8 +35,13 @@ Após isso só olhar qual senha está na mesma posição em rockpass.txt e ali e
 
 ## Resultado
 Nesse lab especifico foi 
+
 <img width="1008" height="258" alt="image" src="https://github.com/user-attachments/assets/195efeff-2259-4c83-aeb7-f965b3785f38" />
+
+
 <img width="621" height="91" alt="image" src="https://github.com/user-attachments/assets/a98aacb8-19fb-42d8-9de8-aa79716d91f1" />
+
+
 <img width="621" height="91" alt="image" src="https://github.com/user-attachments/assets/bf625f3c-b19d-4afa-b16e-69ebe0be0374" />
 
 carlos:master
