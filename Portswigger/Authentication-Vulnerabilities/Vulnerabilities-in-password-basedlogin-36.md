@@ -44,7 +44,8 @@ Nesse lab especifico foi
 
 <img width="621" height="91" alt="image" src="https://github.com/user-attachments/assets/bf625f3c-b19d-4afa-b16e-69ebe0be0374" />
 
-carlos:master
+
+``carlos:master``
 
 ## Lições Aprendidas
 Alguns sistemas deixam as credenciais escondidas em cookies é bom verificar. 
