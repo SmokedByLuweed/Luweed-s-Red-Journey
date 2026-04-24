@@ -40,6 +40,15 @@ https-post-form \
 
 user ``atlanta`` password ``2000``
 
+
+## Result
+
+<br>
+<img width="1917" height="1044" alt="image" src="https://github.com/user-attachments/assets/aa179941-4d69-40e4-b152-9e1525c498cd" />
+
+
+
+
 ## Impact
 This vulnerability could lead to unauthorized account takeover. Access to the admin panel, data exposure, and the possibility of pivoting.
 
