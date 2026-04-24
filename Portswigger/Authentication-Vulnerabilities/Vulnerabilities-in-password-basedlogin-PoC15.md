@@ -55,6 +55,10 @@ final_output: `` [Status: 302, Size: 0, Words: 1, Lines: 1, Duration: 253ms]
 
 ## Result
 ``as:daniel``
+<br>
+<br>
+<img width="1917" height="1044" alt="image" src="https://github.com/user-attachments/assets/bd89b942-4089-4b0e-baaa-dc1c47a75dbe" />
+
 
 
 ## Impact
