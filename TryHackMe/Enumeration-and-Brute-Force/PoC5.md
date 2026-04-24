@@ -28,6 +28,11 @@ http-get \
 it returned admin:yellow
 The THM flag ``THM{b4$$1C_AuTTHHH}``
 
+## Results
+<br>
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/a2ed4f39-ebf6-467b-966a-7b8bdd66ce1e" />
+
+
 ## Impact
 This vulnerability could lead to unauthorized account takeover. Access to the admin panel, data exposure, and the possibility of pivoting.
 
