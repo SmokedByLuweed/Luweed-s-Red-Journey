@@ -49,5 +49,5 @@ XSS attack in comments
 This vulnerability could lead to unauthorized account takeover. Access to the admin panel, data exposure, and the possibility of pivoting.
 
 ## Remediation
-implementar output encoding nos comentários e validar/sanitizar input do lado do servidor.
+Implement output encoding in comments and validate/sanitize input on the server side.
 And also use a cryptographically a secure random token as the stay-logged-in cookie instead of a predictable hash.
