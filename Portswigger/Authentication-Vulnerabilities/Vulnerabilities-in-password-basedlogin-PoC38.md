@@ -43,6 +43,12 @@ XSS attack in comments
 
 ``carlos:onceuponatime``
 
+<br>
+<br>
+Lab 43 was too easy for PoC
+<br>
+<img width="1920" height="933" alt="image" src="https://github.com/user-attachments/assets/f61ece1e-f8e7-4a75-89f4-0c388f6aad63" />
+
 
 ## Impact
 
