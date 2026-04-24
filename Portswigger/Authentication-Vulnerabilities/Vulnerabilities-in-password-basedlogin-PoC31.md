@@ -43,6 +43,9 @@ ffuf attackline
 
 ## Result
 <img width="1568" height="716" alt="image" src="https://github.com/user-attachments/assets/4f22ff48-5552-431f-8c11-b7339c479251" />
+<br>
+<img width="1917" height="1044" alt="image" src="https://github.com/user-attachments/assets/e989b4ec-f390-40b2-8e49-a608b8fc35f9" />
+
 
 
 ## Impact
