@@ -63,12 +63,7 @@ applications:shadow
 <br>
 <br>
 <img width="1917" height="1044" alt="image" src="https://github.com/user-attachments/assets/b8cbaa75-a37d-4a0b-b1db-deef10f46370" />
-<br>
-<br>
-Lab 29 was too easy for PoC
-<br>
-<br>
-<img width="1917" height="1044" alt="image" src="https://github.com/user-attachments/assets/71935272-b5a1-46cd-a31b-593f2f0f2e5c" />
+
 
 
 ## Impact
