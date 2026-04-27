@@ -6,7 +6,7 @@
 
 Informação importante: ``pg_user`` / ``pg_roles`` — usuários e permissões do banco. Útil pra escalar privilégios dentro do banco em alguns cenários.
 
-
+<br>
 <br>
 Como enumerar os nomes das colunas de users:  'UNION SELECT column_name, NULL FROM information_schema.columns WHERE table_name='users'--
 <br>
