@@ -10,6 +10,7 @@ Informação importante: ``pg_user`` / ``pg_roles`` — usuários e permissões 
 <br>
 Como enumerar os nomes das colunas de users:  'UNION SELECT column_name, NULL FROM information_schema.columns WHERE table_name='users'--
 <br>
+<br>
 <img width="1920" height="1006" alt="image" src="https://github.com/user-attachments/assets/453c0d3b-8f34-4d35-8332-6affc336ced6" />
 
 
