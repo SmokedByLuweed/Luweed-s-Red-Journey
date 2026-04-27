@@ -9,7 +9,8 @@ Enumerando as mesas para achar a dos users
 <br>
 Enumerando as colunas em ``users_iepcnw``
 <br>
-<img width="1920" height="1007" alt="Screenshot From 2026-04-27 20-19-01" src="https://github.com/user-attachments/assets/08b4d9e4-7da5-45f2-a45b-2bf3c216c34d" />
+<img width="1920" height="1007" alt="Screenshot From 2026-04-27 20-19-13" src="https://github.com/user-attachments/assets/24847dfd-a194-43d3-bce6-4ca72c1dd027" />
+
 <br>
 <br>
 Final SQLi
