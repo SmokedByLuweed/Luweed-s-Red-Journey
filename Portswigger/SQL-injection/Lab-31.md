@@ -7,6 +7,7 @@ O database é vulneravel a blind SQLi. fiz o teste identificando com ``' AND '1'
 <img width="1832" height="844" alt="Screenshot From 2026-04-28 10-55-11" src="https://github.com/user-attachments/assets/cf478b26-b8ed-4d3f-91ae-833f0a4aad2a" />
 
 <br>
+
 ``' AND '1'='2`` quando falso não retornava nada.
 <br>
 <img width="1832" height="844" alt="Screenshot From 2026-04-28 10-54-59" src="https://github.com/user-attachments/assets/37776e51-ccf2-48f6-af12-fe5da875853e" />
