@@ -10,7 +10,7 @@ quando verdadeiro divide 1/0 e da error 500 no DB
 
 <br>
 
-`` WHEN (1=2)...'`` quando falso retorna 200 ok
+`` WHEN (1=2)...'`` quando falso pula a divisão e faz else 'a'='a' e retorna 200 ok essa é a logica dessa SQLi
 <br>
 <img width="1854" height="775" alt="Screenshot From 2026-04-29 10-12-28" src="https://github.com/user-attachments/assets/64590ca9-c8f8-455a-9ab9-4a70cc61d136" />
 
