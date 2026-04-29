@@ -17,7 +17,7 @@ O database é vulneravel a blind SQLi. fiz o teste identificando com ``' AND '1'
 ## Metodologia
 Após criar uma wordlist de a-z, 0-9 & A-Z; chamada de testefuz.txt
 criei uma req.txt para alocar o header do cookie com o SQLi porque estava dando conflito com o shell, o conflito era escape de aspas simples dentro de aspas duplas no bash.
-rodei a ffuf attack-line com -mr para filtrar TRUE
+Após isso rodei a ffuf attack-line com -mr para filtrar TRUE
 eu não sabia o tamanho da senha, fiz posição por posição até posição 21 retornar falso.
 
 ## Comandos Utilizados
