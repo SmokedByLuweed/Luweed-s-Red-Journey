@@ -1,7 +1,7 @@
 # Blind SQL injection with time delays and information retrieval - PortSwigger Lab 41
 
 **Severity:** Medium
-**Target:** https://0a5f00fb041c096e81cd6653004b00cc.web-security-academy.net
+**Target:** https://0a7000f30398f6a58143fc3700470032.web-security-academy.net
 
 ## Summary
 The application concatenates the user input directly into the query and interpreted as SQL, allowing injection that causes visible server-time response error
