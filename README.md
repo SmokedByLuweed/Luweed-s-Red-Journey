@@ -5,7 +5,7 @@ Documentação do meu aprendizado em pentesting e bug bounty.
 ## Trilha de Estudos
 - [x] TryHackMe — Enumeration & Brute Force
 - [x] PortSwigger — Authentication Vulnerabilities
-- [ ] PortSwigger — SQL injection
+- [x] PortSwigger — SQL injection
 - [ ] HackTheBox
 
 ## Writeups
