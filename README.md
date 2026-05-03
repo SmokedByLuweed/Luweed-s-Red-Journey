@@ -14,4 +14,4 @@ Documentação do meu aprendizado em pentesting e bug bounty.
 |------------|--------|--------|
 | TryHackMe | Enumeration & Brute Force | Concluído |
 | PortSwigger | Authentication Vulnerabilities | Concluído |
-| PortSwigger | SQL injection | Em progresso |
+| PortSwigger | SQL injection | Concluído |
