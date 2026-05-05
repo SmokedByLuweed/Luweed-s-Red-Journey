@@ -7,6 +7,7 @@ Documentação do meu aprendizado em pentesting e bug bounty.
 - [x] TryHackMe — Enumeration & Brute Force
 - [x] PortSwigger — Authentication Vulnerabilities
 - [x] PortSwigger — SQL Injection
+- [ ] PortSwigger — Cross-site scripting
 - [ ] HackTheBox
 
 
