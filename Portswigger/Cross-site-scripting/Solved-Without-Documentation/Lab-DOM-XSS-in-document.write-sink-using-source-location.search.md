@@ -1,4 +1,4 @@
-Usei ``">`` para fechar a img e o resources para injetar o script após sem isso a query ficaria presa dentro de <img e n conseguiria ser interpretada como <scritp>
+Usei ``">`` para fechar a img e o resources para injetar o script após, sem isso a query ficaria presa dentro de <img e n conseguiria ser interpretada como <scritp>
 <br>
 <img width="1718" height="894" alt="image" src="https://github.com/user-attachments/assets/50914a72-3a3d-40d8-9f75-660183a655dd" />
 <br>
