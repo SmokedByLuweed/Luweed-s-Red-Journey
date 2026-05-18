@@ -33,5 +33,5 @@ Então para o ``<img>`` funcionar precisa fechar o ``</select>`` primeiro se nã
 <br>
 
 o ``<img onerror>`` é mais robusto porque o evento onerror dispara independentemente do estado do parser, 
-enquanto `<script>`` injetado via document.write pode não executar de forma confiável dependendo do browser.
+enquanto ``<script>`` injetado via document.write pode não executar de forma confiável dependendo do browser.
 
