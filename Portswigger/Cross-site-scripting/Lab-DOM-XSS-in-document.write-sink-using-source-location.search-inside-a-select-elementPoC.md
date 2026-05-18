@@ -14,7 +14,7 @@ The ``storeId`` variable is stored directly in ``document.write``, and the ``sto
 ## Steps to Reproduce
 
 1. click in a product 
-2. in the product page, type in the URL ``&storeId=</select><img src=x onerror="alert(1)">`
+2. in the product page, type in the URL ``&storeId=</select><img src=x onerror="alert(1)">``
    
 
 ## Proof of Concept
